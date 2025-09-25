@@ -51,7 +51,7 @@ This makes it easy to find specific practice exercises directly in the repositor
 
 ## 🌱 Let's Connect!
 
-Feel free to explore the code, provide feedback, or even share your own learning insights! You can reach me [Your Social Media Link / LinkedIn Profile Link Here].
+Feel free to explore the code, provide feedback, or even share your own learning insights! You can reach me.
 
 Happy Coding! 🚀
 
