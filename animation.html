@@ -1,0 +1,51 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+  </head>
+  <style>
+    /*CSS reset*/
+    {
+        margin:0;
+        padding:0;
+    }
+    .box{
+        width: 250px;
+        height: 150px;
+        background-color:  crimson;
+        border:2px solid green;
+        animation-name: Minahil;
+        animation-duration: 4s;
+       animation-iteration-count: infinite;
+       /* animation-delay: 3s;*/
+       animation-timing-function: ease-in;
+        animation-timing-function: ease out;
+    }
+    @keyframes Minahil {
+        from{
+            background-color: red;
+            width: 250px;
+           height: 150px;
+            color: black;
+           /* opacity: 0;*/
+
+        }
+        to{
+            background-color: rgb(0, 255, 64);
+            width: 500px;
+            height: 400px;
+            color: blue;
+            /*opacity: 1;*/
+        }
+    
+    
+  </style>
+  <body>
+    <div class="box">
+        <h1>Animation in CSS</h1>
+    </div>
+    
+  </body>
+  </html>

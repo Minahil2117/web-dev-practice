@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roation animation</title>
+    <style>
+        /*CSS reset*/
+    {
+        margin:0;
+        padding:0;
+    }
+    .box{
+        width: 250px;
+        height: 150px;
+        background-color:  blueviolet;
+        border:2px solid green;
+        animation-name: Fatima;
+        animation-duration: 4s;
+       animation-iteration-count: infinite;
+       /* animation-delay: 3s;*/
+       animation-timing-function: ease-in;
+       /* animation-timing-function: ease-out*/
+    }
+        @keyframes Fatima {
+            
+        {
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform:rotate(180deg);
+            }
+            100%{
+                transform:rotate(360deg);
+            }
+        }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Rotating box</h1>
+    </div>
+    
+</body>
+</html>
